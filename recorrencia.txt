@@ -1,0 +1,9 @@
+Equação de recorrencia do problema Word Wrap
+
+f(x) = {	0									if j=0
+			min		(cost[i-1] + lineCost[i][j])	if j>0
+			1<=i<=j
+
+
+-Sendo cost[i] a soma dos custos para colocar as palavras de 1 a i.
+-Sendo lineCost[i][j], o custo de colocar das palavras i ate j na mesma linha. Vale INFINITO caso nao tenha espaco.
